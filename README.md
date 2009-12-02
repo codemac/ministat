@@ -1,7 +1,7 @@
 ministat
 ========
 
-(A port of Poul-Henning Kamp's `ministat` for OS X.)
+(A port of Poul-Henning Kamp's `ministat` for Linux.)
 
 A small tool to do the statistics legwork on benchmarks etc.
 
