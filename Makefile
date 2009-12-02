@@ -1,6 +1,6 @@
 PREFIX=/usr
 BINDIR=$(PREFIX)/bin
-MANDIR=$(PREFIX)/man1
+MANDIR=$(PREFIX)/share/man/man1
 DESTDIR=
 
 ministat:
