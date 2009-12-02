@@ -5,19 +5,17 @@
  * can do whatever you want with this stuff. If we meet some day, and you think
  * this stuff is worth it, you can buy me a beer in return.   Poul-Henning Kamp
  * ----------------------------------------------------------------------------
- *
+ * 
+ * Ported to linux by Jeff Mickey <j@codemac.net>
  */
 
-#include <sys/cdefs.h>
 #include <stdio.h>
 #include <math.h>
-#include <err.h>
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/ioctl.h>
 #include <sys/queue.h>
-#include <sys/ttycom.h>
 
 #define NSTUDENT 100
 #define NCONF 6
