@@ -15,8 +15,8 @@ install-man:
 	gzip -c ministat.1 > ministat.1.gz
 
 install: install-man ministat
-	install -m 0755 ministat $(DESTDIR)$(BINDIR)
-	install -m 0644 ministat.1.gz $(DESTDIR)$(MANDIR)
+	install -D -m 0755 ministat $(DESTDIR)$(BINDIR)/ministat
+	install -D -m 0644 ministat.1.gz $(DESTDIR)$(MANDIR)/ministat.1.gz
 
 uninstall:
 	rm $(DESTDIR)$(BINDIR)/minista
