@@ -14,6 +14,7 @@
 #include <string.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <err.h>
 #include <sys/ioctl.h>
 #include <sys/queue.h>
 
